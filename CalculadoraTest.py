@@ -2,7 +2,7 @@ from unittest import TestCase
 
 __author__ = 'nazly'
 
-import Calculadora
+from Calculadora import Calculadora
 
 class CalculadoraTest(TestCase):
     def test_sumar(self):
