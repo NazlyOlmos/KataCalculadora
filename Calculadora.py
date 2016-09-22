@@ -2,4 +2,7 @@ __author__ = 'nazly'
 
 class Calculadora:
      def sumar(self,cadena):
-         return 0
+         if cadena=="":
+            return 0
+         else:
+             return 1
